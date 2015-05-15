@@ -1,0 +1,154 @@
+@font-face {
+	font-family: "NeoSansIntel-Light";
+	src: url("../fonts/NeoSansIntel-Light.ttf");
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+}
+
+body {
+	/*background-image: url("../img/image1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	font-family: "NeoSansIntel-Light", Helvetica, sans-serif;
+	color: #ff0;
+	margin: 0%;
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	background-image: url("../img/title_background.png");
+	background-size: contain;
+	margin: 0%;
+	padding: 1.6%;
+	-webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75); box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.75);
+	font-size: 175%;
+}
+
+h2 {
+
+  font-size: 130%;
+  
+
+}
+
+#description {
+	margin: -12% auto 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	width: 86.5%;
+	text-align: center;
+}
+
+#viewer {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	position: absolute;
+	top: -24%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#viewer img{
+	width: 87%;
+	border: #C3C3C3 2px solid;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75);   -moz-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75);   box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75);
+}
+
+#thumbnails {
+	background-image: url("../img/thumbnails_background.png");
+	background-size: cover;
+	overflow: auto;
+	position: fixed;
+	width: 100%;
+	bottom: 0%;
+}
+#thumbnails ul {
+	list-style-type: none;
+	width: 100%;
+	padding: 2.5% 0px;
+	font-size: 0%;
+}
+
+#thumbnails li {
+	display: inline-block;
+	-webkit-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75); 
+	box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75);
+	vertical-align: top;
+}
+#thumbnails img {
+	width: 87px;
+	-webkit-filter: opacity(0.5);
+	filter: opacity(.5);
+}
+
+#thumbnails li.selected img {
+	-webkit-filter: initial;
+	filter: initial;
+	width: 100%;
+	border: #03A2DF 1px solid;
+}
+
+#arrow_left, #arrow_right {
+	padding: 1% 2%;
+	position: absolute;
+	top: 40%;
+	-webkit-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75);   -moz-box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75);   box-shadow: 0px -2px 25px 0px rgba(0,0,0,0.75);
+	font-size: 150%;
+	color: #03A2DF;
+	background-color: rgba(254,254,254,0.5);
+	cursor: pointer;
+}
+
+#arrow_left {
+    left: 0%;
+	
+}
+
+@media screen and (max-width: 1200px) {
+	#viewer {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#description {
+		margin-top: 3%;
+		background-color: initial;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#viewer {
+		top: -15%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#viewer {
+		width: 63%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	#viewer {
+		width: 85%;	
+		top: -25%;
+}
+	#thumbnails img {
+		width: 83px;
+	}
+}

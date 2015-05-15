@@ -1,0 +1,49 @@
+{
+  "album": {
+    "name": "Intel 2013 Conference Moments"
+  },
+  "photos": [
+    {
+      "image":"img/image1.jpg",
+      "thumb_url":"img/thumb1.jpg",
+      "title":"Experimental Projects at Intel",
+      "date":"June 17, 2013",
+      "location":"Richmond, Virginia"
+    },
+    {
+      "image":"img/image2.jpg",
+      "thumb_url":"img/thumb2.jpg",
+      "title":"The Keynote Address Surprised Many",
+      "date":"June 18, 2013",
+      "location":"Raleigh, North Carolina"
+    },
+    {
+      "image":"img/image3.jpg",
+      "thumb_url":"img/thumb3.jpg",
+      "title":"Jonathan Mathers",
+      "date":"July 16, 2013",
+      "location":"Austin, Texas"
+    },
+    {
+      "image":"img/image4.jpg",
+      "thumb_url":"img/thumb4.jpg",
+      "title":"Next Generation Chipsets",
+      "date":"August 1, 2013",
+      "location":"New York, New York"
+    },
+    {
+      "image":"img/image5.jpg",
+      "thumb_url":"img/thumb5.jpg",
+      "title":"Operating Systems of the Future",
+      "date":"September 3, 2013",
+      "location":"Chicago, Illinois"
+    },
+    {
+      "image":"img/image6.jpg",
+      "thumb_url":"img/thumb6.jpg",
+      "title":"Sponsors of Tomorrow Booth",
+      "date":"September 14, 2013",
+      "location":"San Francisco, California"
+    }
+  ]
+}
